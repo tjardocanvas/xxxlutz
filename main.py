@@ -14,7 +14,7 @@ client = gspread.authorize(creds)
 sheet = client.open("XXXLutz Orders").sheet1  # Moet overeenkomen met je echte sheetnaam
 
 # === Mirakl API setup ===
-api_url = "https://xxx.mirakl.net/api/orders"  # Vervang xxx met jouw Mirakl-URL
+api_url = "https://marketplace.xxxlgroup.mirakl.net/api/orders"  # Vervang xxx met jouw Mirakl-URL
 headers = {
     "Authorization": f'Bearer {os.environ["MIRAKL_API_KEY"]}'
 }
